@@ -1,4 +1,5 @@
-package lexicon.se.maria.Vending_machine;
+package lexicon.se.maria.Vending_machine.Products;
+
 
 public class Food extends Product {
 	private String weight;
@@ -8,8 +9,7 @@ public class Food extends Product {
 		this.weight = weight;
 	}
 	
-	//Getters and Setters		
-
+	
 	public String getName() {
 		return name;
 	}
@@ -32,3 +32,4 @@ public class Food extends Product {
 	
 	}
 }
+

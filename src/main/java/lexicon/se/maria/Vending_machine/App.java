@@ -2,6 +2,10 @@ package lexicon.se.maria.Vending_machine;
 
 import java.util.Scanner;
 
+import lexicon.se.maria.Vending_machine.Products.Drink;
+import lexicon.se.maria.Vending_machine.Products.Food;
+import lexicon.se.maria.Vending_machine.Products.Snack;
+
 /**
  * Vending machine
  *
