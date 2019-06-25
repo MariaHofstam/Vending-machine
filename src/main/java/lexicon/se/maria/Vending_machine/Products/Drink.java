@@ -9,27 +9,28 @@ public class Drink extends Product {
 		this.volume = volume;
 	}
 	
-	
-	public String getName() {
-		return name;
-	}
-
-	public int getPrice() {
-		return price;
-	}
-	
-	public int getPlaceId() {
-		return placeId;
-	}
-
-	public void setPlaceId(int placeId) {
-		this.placeId = placeId;
-	}
 
 	@Override
 	public String toString() {
-		return 	placeId + "\t \t" + name + "\t" + volume + "\t" + price + " Sek";
-	
+		return 	super.getPlaceId() + "\t \t" + super.getName() + "\t" + volume + "\t" + super.getPrice() + " Sek";
+	}
+
+	@Override
+	public String examine() {
+		return "\nExamine: " + super.getName() +  "\t \t" + super.getPrice() + " Sek";
+	}
+
+
+	@Override
+	public void use() {
+		System.out.println("\nDrinking my " + super.getName());
+	}
+
+
+	@Override
+	Product purchase(int money) {
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 }

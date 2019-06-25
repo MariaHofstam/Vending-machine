@@ -29,4 +29,11 @@ public abstract class Product {
 				this.placeId = placeId;
 			}
 
+			
+			
+			public abstract String examine();
+			 
+			public abstract void use();
+			
+			abstract Product purchase(int money);
 }

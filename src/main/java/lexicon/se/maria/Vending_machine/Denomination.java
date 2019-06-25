@@ -2,7 +2,7 @@ package lexicon.se.maria.Vending_machine;
 
 /*************************************************************
  * 
- * I am using the ENUM method for konstants of denominations,
+ * I am using the ENUM method for constants of denominations,
  * i.e the accepted values for the vending-machine.
  * I will use it for printing out accepted values and perhaps
  * controlling the values.
